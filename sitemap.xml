@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:urlset xmlns:html="http://www.w3.org/1999/xhtml" xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/hu/</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>1.0</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/en/</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>1.0</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/hu/about.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/about.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/about.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/en/about.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/about.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/about.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/hu/projects.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/projects.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/projects.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/en/projects.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/projects.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/projects.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/hu/learning.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/learning.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/learning.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/en/learning.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/learning.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/learning.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/hu/notes.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/notes.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/notes.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/en/notes.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/notes.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/notes.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/hu/contact.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/contact.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/contact.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://gergelyhajdu.hu/en/contact.html</ns0:loc>
+    <ns0:lastmod>2026-06-24</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+    <html:link rel="alternate" hreflang="hu" href="https://gergelyhajdu.hu/hu/contact.html" />
+    <html:link rel="alternate" hreflang="en" href="https://gergelyhajdu.hu/en/contact.html" />
+    <html:link rel="alternate" hreflang="x-default" href="https://gergelyhajdu.hu/" />
+  </ns0:url>
+</ns0:urlset>
