@@ -1737,3 +1737,62 @@ textarea {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* Learning: collapsible course list inside training cards */
+.learning-course-details {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.learning-course-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 800;
+  cursor: pointer;
+  list-style: none;
+}
+
+.learning-course-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.learning-course-details summary::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  flex: 0 0 8px;
+  border-right: 2px solid var(--blue);
+  border-bottom: 2px solid var(--blue);
+  transform: rotate(45deg);
+  transition: transform 0.18s ease;
+  margin-right: 4px;
+}
+
+.learning-course-details[open] summary::after {
+  transform: rotate(225deg);
+}
+
+.learning-course-list {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.learning-course-list li {
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.88rem;
+  color: var(--ink);
+}
+
+.learning-course-list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}

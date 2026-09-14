@@ -101,13 +101,16 @@
                 <div>
                   <strong> Email </strong>
                   <br />
+                  <span id="email-link"></span>
                   <script>
                     var emailAddressN = "mail";
                     var emailAddressD = "gergelyhajdu.hu";
                     var emailAddress = emailAddressN + "@" + emailAddressD;
-                    document.write(
-                      '<a href="mailto:' + emailAddress + '" class="text-decoration-none">' + emailAddress + "</a>",
-                    );
+                    var emailLink = document.createElement("a");
+                    emailLink.href = "mailto:" + emailAddress;
+                    emailLink.textContent = emailAddress;
+                    emailLink.className = "text-decoration-none";
+                    document.getElementById("email-link").appendChild(emailLink);
                   </script>
                 </div>
               </div>
