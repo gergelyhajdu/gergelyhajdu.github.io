@@ -33,6 +33,12 @@ a {
   color: inherit;
 }
 
+a,
+button,
+summary {
+  -webkit-tap-highlight-color: transparent;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -163,6 +169,10 @@ img {
   justify-content: center;
   font-size: 1.1rem;
   line-height: 1;
+}
+
+.menu-btn[aria-expanded="true"] {
+  font-size: 1.45rem;
 }
 
 .hero {
