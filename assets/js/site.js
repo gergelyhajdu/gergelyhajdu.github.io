@@ -6,6 +6,7 @@ if (menuButton && nav) {
     nav.classList.toggle("open", isOpen);
     document.body.classList.toggle("menu-open", isOpen);
     menuButton.setAttribute("aria-expanded", String(isOpen));
+    menuButton.textContent = isOpen ? "×" : "☰";
   };
 
   setMenuState(nav.classList.contains("open"));
@@ -13,7 +14,6 @@ if (menuButton && nav) {
   menuButton.addEventListener("click", () => {
     setMenuState(!nav.classList.contains("open"));
   });
-
   document.addEventListener("click", (event) => {
     if (nav.classList.contains("open") && !nav.contains(event.target) && !menuButton.contains(event.target)) {
       setMenuState(false);
@@ -27,7 +27,6 @@ if (menuButton && nav) {
     }
   });
 }
-
 document.querySelectorAll("[data-filter]").forEach((button) => {
   button.addEventListener("click", () => {
     const value = button.dataset.filter;
@@ -36,9 +35,8 @@ document.querySelectorAll("[data-filter]").forEach((button) => {
       item.classList.toggle("active", item === button);
     });
 
-    document.querySelectorAll("[data-tags], [data-category]").forEach((card) => {
-      const tags = card.dataset.tags ? card.dataset.tags.split(/\s+/) : [card.dataset.category];
-
+    document.querySelectorAll("[data-tags]").forEach((card) => {
+      const tags = card.dataset.tags.split(/\s+/);
       card.hidden = value !== "all" && !tags.includes(value);
     });
   });
@@ -53,7 +51,6 @@ if (backToTopButton) {
 
   window.addEventListener("scroll", toggleBackToTop, { passive: true });
   toggleBackToTop();
-
   backToTopButton.addEventListener("click", () => {
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
