@@ -789,7 +789,7 @@ img {
     max-width: none;
     margin-left: calc(50% - 50vw);
     overflow: hidden;
-    height: clamp(110px, 24vw, 170px);
+    height: clamp(220px, 48vw, 340px);
     background: var(--surface-soft);
     border-top: 1px solid var(--line);
     border-bottom: 1px solid var(--line);
@@ -805,6 +805,13 @@ img {
     border-radius: 0;
     filter: none;
     transform: none;
+  }
+
+  .hero-art img[src$="home-hero.webp"],
+  .page-hero-art img[src$="about-hero.webp"],
+  .page-hero-art img[src$="projects-hero.webp"],
+  .page-hero-art img[src$="contact-hero.webp"] {
+    object-position: center top;
   }
 
   .focus-grid,
